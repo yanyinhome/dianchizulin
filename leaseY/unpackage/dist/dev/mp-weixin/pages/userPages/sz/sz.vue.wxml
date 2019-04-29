@@ -1,0 +1,1 @@
+<template name="b8c044ee"><view class="_view data-v-4f8dd8db content"><view class="_view data-v-4f8dd8db box flexBox"><view class="_view data-v-4f8dd8db"><text class="_text data-v-4f8dd8db">手机号码:</text><text class="_text data-v-4f8dd8db">{{tel}}</text></view><image src="../../../static/image/backR.png" mode class="_image data-v-4f8dd8db"></image></view></view></template>

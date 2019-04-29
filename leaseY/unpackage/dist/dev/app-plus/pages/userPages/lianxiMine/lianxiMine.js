@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"content.",[1],"data-v-0c2734b9 { border-top: ",[0,2]," solid #eee; }\n",],undefined,{path:"./pages/userPages/lianxiMine/lianxiMine.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/userPages/lianxiMine/lianxiMine.wxml') } }));

@@ -1,0 +1,2 @@
+<import src="./txStatus.vue.wxml" />
+    <template is="81e9f6ea" data="{{ ...$root['0'], $root }}"/>

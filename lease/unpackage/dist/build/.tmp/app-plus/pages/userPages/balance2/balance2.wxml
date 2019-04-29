@@ -1,0 +1,2 @@
+<import src="./balance2.vue.wxml" />
+    <template is="31feec8b" data="{{ ...$root['0'], $root }}"/>

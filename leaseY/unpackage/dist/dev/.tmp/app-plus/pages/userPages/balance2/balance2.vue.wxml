@@ -1,0 +1,1 @@
+<template name="c53332f0"><view class="_view data-v-1bc4ea0e content"><view class="_view data-v-1bc4ea0e zBox"><image src="../../../static/image/money.png" mode class="_image data-v-1bc4ea0e"></image><view class="_view data-v-1bc4ea0e"><text class="_text data-v-1bc4ea0e">钱包余额</text><text class="_text data-v-1bc4ea0e">{{balance}}</text></view></view></view></template>

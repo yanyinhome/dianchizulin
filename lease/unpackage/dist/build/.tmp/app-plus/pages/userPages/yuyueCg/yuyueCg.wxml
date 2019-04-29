@@ -1,0 +1,2 @@
+<import src="./yuyueCg.vue.wxml" />
+    <template is="5c63506f" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,2 @@
+<import src="./leasePage.vue.wxml" />
+    <template is="6d69211f" data="{{ ...$root['0'], $root }}"/>

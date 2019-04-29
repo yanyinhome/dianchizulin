@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"content.",[1],"data-v-d2767372 { border-top: ",[0,2]," solid #eee; padding-top: ",[0,20],"; }\nwx-input.",[1],"data-v-d2767372 { width: 100%; height: ",[0,90],"; line-height: ",[0,90],"; border-bottom: ",[0,2]," solid #eee; }\n.",[1],"btnBlue.",[1],"data-v-d2767372 { margin-top: ",[0,100],"; }\n",],undefined,{path:"./pages/userPages/sz/sz.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/userPages/sz/sz.wxml') } }));

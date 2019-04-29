@@ -1,0 +1,582 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('data:application/font-woff;base64,d09GRgABAAAAAAe8AAsAAAAAB3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDxIF2WNtYXAAAAFoAAAAVAAAAFQXVtKLZ2FzcAAAAbwAAAAIAAAACAAAABBnbHlmAAABxAAAA5wAAAOcLt+y5mhlYWQAAAVgAAAANgAAADYUcURYaGhlYQAABZgAAAAkAAAAJAeiA8pobXR4AAAFvAAAACQAAAAkGgAC8mxvY2EAAAXgAAAAFAAAABQClAPYbWF4cAAABfQAAAAgAAAAIAAbAG9uYW1lAAAGFAAAAYYAAAGGmUoJ+3Bvc3QAAAecAAAAIAAAACAAAwAAAAMDqwGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAA6QQDwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADgAAAAKAAgAAgACAAEAIOkE//3//wAAAAAAIOkA//3//wAB/+MXBAADAAEAAAAAAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAwA0AEADqwLrABQAJwBOAAAlISImLwEmND8BPgEzITIWFREUBiMBHwEeATMhMjY1ETQmIyEiBg8BITc2NCcmIg8BJyYiBwYUHwEHBhQXHgEzMjY/ARceATMyNjc2NC8BAyv+VS5hG6IICKIbYS4BqzVLSzX9XyJwDj0ZAasRGRkR/lUZPQ6SAb9xBgYHEQZxcQYSBgcHcXEHBwMIBAQIA3FxAwgEBAgDBgZxQDIl5AseDOMmMks1/lU1SwFVMJwUIBkSAasRGR8UzXEGEgYHB3FxBwcGEgZxcQYSBgMDAwNxcQMDAwMGEgZxAAABAGQAFwO8A2sAHAAAJRUUBiclLgE3JTYWHQEhMjY1ETMRFAcOAQcGIyEBlRMO/vANAQ4BEA0UAVQ0S1QQETknJyv+rMCYEQsLzQoeC80KChK9UTUB0P4wLCgoPBESAAARACAAGAPgA50AAwAHAAsADwATABcAGwAfACMAJwArAC8AMwA3AD8AQwBsAAATMxUjNzMVIzczFSM3MxUjNzMVIzczFSMFMxUjNzMVIzczFSM3MxUjNzMVIxczFSMlMxUjNyEVIQE1IxUhESERAyERIQMuAQcFJyYGBwYWFwUWMjMwMjEeATM4ATM4ATMyNjcwMjE6ATclPgEnoEBAgEBAgEBAgEBAgEBAgEBA/cBAQIBAQIBAQIBAQIBAQEBAQP2AQECAAcD+QAEAQP5AA8BA/MADQHAGHA//AP0PHQYFDQ4BCgECAQICBAIBAQIEAgEBAgEBDA8NBQKdQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAcCAgP3AAkD+AAHA/dMPDQZfYQUNDw4dBmUBAQEBAQFkBR0PAAAAAQDJAH4DNwL0ACYAAAkBNjQnJiIHCQEmIgcGFBcJAQYUFx4BMzI2NwkBHgEzMjY3NjQnAQItAQoJCQoaCv73/vkJGwkKCgEH/vcKCQUMBgYMBQEJAQkFDAYGDAUJCf72Ab8BCAkaCgkJ/vgBCAkJCRsJ/vj++AkbCQUEBAUBCP71BAUFBAoaCgEKAAABAXEArwKCAs8AFgAAATQwFQcGFBcWMj8BNjQvASYiBwYUHwECZPMGBgYSBvMNDfEGEQcGBvEBvgEB8QcRBgYG8w0iC/MGBgYSBvMAAQAAAAAAAO+GPLdfDzz1AAsEAAAAAADYuf/fAAAAANi5/98AAAAAA+ADnQAAAAgAAgAAAAAAAAABAAADwP/AAAAEAAAAAAAD4AABAAAAAAAAAAAAAAAAAAAACQQAAAAAAAAAAAAAAAIAAAAEAAA0BAAAZAQAACAEAADJBAABcQAAAAAACgAUAB4AlADEAWIBqAHOAAEAAAAJAG0AEQAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAOAK4AAQAAAAAAAQAHAAAAAQAAAAAAAgAHAGAAAQAAAAAAAwAHADYAAQAAAAAABAAHAHUAAQAAAAAABQALABUAAQAAAAAABgAHAEsAAQAAAAAACgAaAIoAAwABBAkAAQAOAAcAAwABBAkAAgAOAGcAAwABBAkAAwAOAD0AAwABBAkABAAOAHwAAwABBAkABQAWACAAAwABBAkABgAOAFIAAwABBAkACgA0AKRpY29tb29uAGkAYwBvAG0AbwBvAG5WZXJzaW9uIDEuMABWAGUAcgBzAGkAbwBuACAAMQAuADBpY29tb29uAGkAYwBvAG0AbwBvAG5pY29tb29uAGkAYwBvAG0AbwBvAG5SZWd1bGFyAFIAZQBnAHUAbABhAHJpY29tb29uAGkAYwBvAG0AbwBvAG5Gb250IGdlbmVyYXRlZCBieSBJY29Nb29uLgBGAG8AbgB0ACAAZwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAC4AAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-backspace2:before {
+  content: "\E900";
+}
+
+.icon-close:before {
+  content: "\E903";
+}
+
+.icon-enter:before {
+  content: "\E901";
+}
+
+.icon-jinrujiantou:before {
+  content: "\E904";
+}
+
+.icon-keyboard-down:before {
+  content: "\E902";
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.box.data-v-195c4499 {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.box__header.data-v-195c4499 {
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 36rpx;
+    color: #333;
+    letter-spacing: 2rpx;
+    font-weight: bold;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    line-height: 250rpx;
+    height: 250rpx;
+    font-size: 32rpx;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.box__body.data-v-195c4499 {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 200rpx;
+}
+.box__body .password-box.data-v-195c4499 {
+      height: 90rpx;
+      text-align: center;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+}
+.box__body .password-box .password-item.data-v-195c4499 {
+        height: 100%;
+        border: 1px solid #eee;
+        border-radius: 15rpx;
+        width: 540rpx;
+        margin: 0 auto;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+}
+.box__body .password-box .password-item-char.data-v-195c4499 {
+          width: 16.66666666%;
+          background: white;
+          height: 90rpx;
+          border-right: 1px solid #eee;
+          line-height: 90rpx;
+          text-align: center;
+}
+.box__body .password-box .password-item-char.data-v-195c4499:last-child {
+            border-right: none;
+}
+.box__body .password-box .password-item-char__dot.data-v-195c4499 {
+            height: 90rpx;
+}
+.box__body .password-box .password-item-char__dot.data-v-195c4499:after {
+              content: '\25CF';
+}
+.box .keyboard.data-v-195c4499 {
+    position: fixed;
+    bottom: 0;
+    height: 480rpx;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+}
+.box .keyboard .number.data-v-195c4499 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      width: 75%;
+      list-style: none;
+      padding: 0 0 0 1px;
+      margin: 0;
+      border-right: 1px solid #ddd;
+}
+.box .keyboard .number .button.data-v-195c4499 {
+        margin: 0;
+        padding: 0;
+        width: 33%;
+        height: 120rpx;
+        text-align: center;
+        line-height: 100rpx;
+        border-right: 0.5px solid #ddd;
+        border-bottom: 0.5px solid #ddd;
+}
+.box .keyboard .number .button.data-v-195c4499:nth-child(3), .box .keyboard .number .button.data-v-195c4499:nth-child(6), .box .keyboard .number .button.data-v-195c4499:nth-child(9), .box .keyboard .number .button.data-v-195c4499:nth-child(12) {
+          border-right: none;
+}
+.box .keyboard .number .button.data-v-195c4499:nth-child(10), .box .keyboard .number .button.data-v-195c4499:nth-child(11), .box .keyboard .number .button.data-v-195c4499:nth-child(12) {
+          border-bottom: none;
+}
+.box .keyboard .number .button.data-v-195c4499:nth-child(11) {
+          font-size: 32rpx;
+          font-weight: bold;
+}
+.box .keyboard .number .button.data-v-195c4499:active {
+          background: #ddd;
+}
+.box .keyboard .number .down.data-v-195c4499:after {
+        content: '\E902';
+        font-family: 'icomoon';
+        font-size: 30px;
+}
+.box .keyboard .action.data-v-195c4499 {
+      width: 25%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+}
+.box .keyboard .action .delete.data-v-195c4499 {
+        height: 50%;
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+        background: #ddd;
+}
+.box .keyboard .action .delete.data-v-195c4499:after {
+          content: '\E900';
+          font-family: 'icomoon';
+          text-align: center;
+          width: 100%;
+          height: 100%;
+          line-height: 100%;
+          font-size: 30px;
+          display: block;
+          line-height: 240rpx;
+}
+.box .keyboard .action .delete.data-v-195c4499:active {
+          background: #fff;
+}
+.box .keyboard .action .ok.data-v-195c4499 {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        width: 100%;
+}
+.box .keyboard .action .ok.data-v-195c4499:after {
+          content: '\E901';
+          font-family: 'icomoon';
+          width: 100%;
+          height: 100%;
+          line-height: 100%;
+          text-align: center;
+          font-size: 30px;
+          display: block;
+          line-height: 240rpx;
+}
+.box .keyboard .action .ok.data-v-195c4499:active {
+          background: #ddd;
+}
+/*动画*/
+@-webkit-keyframes slidedown-data-v-195c4499 {
+from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+to {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+}
+}
+@keyframes slidedown-data-v-195c4499 {
+from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+to {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+}
+}
+.slidedown.data-v-195c4499 {
+  -webkit-animation: slidedown-data-v-195c4499 0.3s linear;
+          animation: slidedown-data-v-195c4499 0.3s linear;
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+}
+.slideup.data-v-195c4499 {
+  -webkit-animation: slideup-data-v-195c4499 0.3s linear;
+          animation: slideup-data-v-195c4499 0.3s linear;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+@-webkit-keyframes slideup-data-v-195c4499 {
+from {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+}
+to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+}
+@keyframes slideup-data-v-195c4499 {
+from {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+}
+to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+}
+
+
+.container {
+	width: 100%;
+	height: 100%;
+	z-index: 9999999999;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.7);
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+.mt-10.data-v-1af262aa {
+  margin-top: 10px;
+}
+.hidden.data-v-1af262aa {
+  display: none;
+}
+.keyboard-box.data-v-1af262aa {
+  position: absolute;
+  background: #fff;
+  z-index: 99999999999;
+  bottom: 0;
+  width: 100%;
+}
+.keyboard-box .close-button.data-v-1af262aa {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  z-index: 9999;
+}
+.keyboard-box .keyboard-title.data-v-1af262aa {
+  height: 30px;
+  color: #fff;
+  font-size: 12px;
+  z-index: 999;
+  text-align: center;
+  line-height: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.keyboard-box .keyboard-title text.data-v-1af262aa {
+  z-index: 9999;
+  position: relative;
+}
+.keyboard-box .keyboard-title.data-v-1af262aa:after {
+  content: '';
+  width: 120%;
+  height: 30px;
+  position: absolute;
+  left: -10%;
+  top: 0;
+  border-radius: 0 0 50% 50%;
+  background: #00c456;
+}
+.keyboard-box .money-box.data-v-1af262aa {
+  width: 100%;
+  text-align: center;
+}
+.keyboard-box .money-box .text-box.data-v-1af262aa {
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.keyboard-box .money-box .text-box .item-char.data-v-1af262aa {
+  border: 1px solid #a6a6a6;
+  width: 30px;
+  height: 30px;
+}
+.keyboard-box .money-box .text-box .item-char__dot.data-v-1af262aa {
+    height: 30px;
+}
+.keyboard-box .money-box .text-box .item-char__dot.data-v-1af262aa:after {
+      content: '\25CF';
+      font-size: 16px;
+      line-height: 30px;
+      height: 30px;
+      display: block;
+}
+.keyboard-box .money-box .text-box .item-char.data-v-1af262aa:not(:first-child) {
+  margin-left: 3px;
+}
+.keyboard-box .money-box view.data-v-1af262aa:nth-child(1) {
+  font-size: 30px;
+  color: #222;
+}
+.keyboard-box .money-box view.data-v-1af262aa:nth-child(2) {
+  font-size: 12px;
+}
+.keyboard-box .money-box view.data-v-1af262aa:nth-child(4) {
+  font-size: 12px;
+  color: #00c456;
+}
+.keyboard-box .keyboard-content.data-v-1af262aa {
+  min-height: 100px;
+  height: auto;
+  padding: 0 10px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.keyboard-box .keyboard-content .table.data-v-1af262aa {
+  display: table;
+  border-collapse: separate;
+  border-top: 1px solid #f6f6f6;
+  border-left: 1px solid #f6f6f6;
+  width: 100%;
+}
+.keyboard-box .keyboard-content .row.data-v-1af262aa {
+  display: table-row;
+}
+.keyboard-box .keyboard-content .row .backspace.data-v-1af262aa {
+  text-align: center;
+}
+/* .keyboard-box .keyboard-content .row .backspace:after {
+	font-family: 'icomoon'!important;
+	content: '\e900';
+	font-size: 20px;
+	line-height: 40px;
+} */
+.keyboard-box .keyboard-content .row view.data-v-1af262aa {
+  display: table-cell;
+  width: calc(100% / 3);
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #f6f6f6;
+  border-right: 1px solid #f6f6f6;
+  font-size: 14px;
+  font-weight: bold;
+}
+.keyboard-box .keyboard-content .row view.data-v-1af262aa:active {
+  background: #f3f3f3;
+}
+/* .keyboard-box .keyboard-content .row .cell-active {
+	background: #f3f3f3;
+} */
+/*动画*/
+@-webkit-keyframes slidedown-data-v-1af262aa {
+from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+to {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+}
+}
+@keyframes slidedown-data-v-1af262aa {
+from {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+to {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+}
+}
+.slidedown.data-v-1af262aa {
+  -webkit-animation: slidedown-data-v-1af262aa 0.3s linear;
+          animation: slidedown-data-v-1af262aa 0.3s linear;
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+}
+.slideup.data-v-1af262aa {
+  -webkit-animation: slideup-data-v-1af262aa 0.3s linear;
+          animation: slideup-data-v-1af262aa 0.3s linear;
+  -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+          transform: translateY(0);
+}
+@-webkit-keyframes slideup-data-v-1af262aa {
+from {
+    -webkit-transform: translateY(calc(100%));
+            transform: translateY(calc(100%));
+}
+to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+}
+@keyframes slideup-data-v-1af262aa {
+from {
+    -webkit-transform: translateY(calc(100%));
+            transform: translateY(calc(100%));
+}
+to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+}
+
+
+page {
+	background: #f2f2f2;
+}
+.content{
+	padding:0;
+}
+.keyboard-container {
+	position: absolute;
+	top:0;
+	height: 100%;
+	width: 100%;
+}
+uni-button[type=primary] {background: #00C456!important;}
+.content {text-align: center;height: 400rpx;}
+.payment-container {border-top: 1px solid #e2e2e2;height: calc(100%-44px);overflow: hidden;}
+.payment-container .payment {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 10px;
+	background: #fff;
+}
+.payment-container .payment view:nth-child(2) {-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;}
+.payment-container .payment-active {background: #E2E2E2;}
+.payment-container .payment image {width: 30px; height: 30px;margin-right: 10px;}
+.money-container {background: #fff;padding: 10px;}
+.money-container .money-box {padding:10px 0;border-bottom: 1px solid #efefef;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-orient: horizontal;-webkit-box-direction: normal;-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
+.money-container .money-box .button {font-size: 12px;color: #cf9f41;}
+.money-container .money-box view:nth-child(1) {font-size: 25px;}
+.money-container .money-box view:nth-child(2) {-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1;font-size: 30px;padding: 0 5px;}
+.money-container .tips {color:#222;padding-top: 10px; font-size: 12px;}
+.button-box {padding: 0 10px;}
+

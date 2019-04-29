@@ -1,0 +1,213 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/user/user",
+		    "style" : {
+				"app-plus": {  
+					"titleNView": false  
+				}  
+			}
+		},
+		{
+            "path" : "pages/loginPages/login/login",
+            "style" : {
+				"navigationBarTitleText":"登录",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/loginPages/forget/forget",
+            "style" : {
+				"navigationBarTitleText":"忘记密码",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/balance/balance",
+            "style" : {
+				"navigationBarTitleText":"充值",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/balance2/balance2",
+            "style" : {
+				"navigationBarTitleText":"钱包余额",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/account/account",
+            "style" : {
+				"navigationBarTitleText":"积分余额",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/tiXian/tiXian",
+            "style" : {
+				"navigationBarTitleText":"我要提现",
+				"navigationBarBackgroundColor":"#fff",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"text":"明细",
+							"fontSize":"14",
+							"color":"#999"
+						}]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/userPages/mx/mx",
+            "style" : {
+				"navigationBarTitleText":"提现明细",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/pw/pw",
+            "style" : {
+				"navigationBarTitleText":"我要提现",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/txStatus/txStatus",
+            "style" : {
+				"navigationBarTitleText":"提现状态",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/payAq/payAq",
+            "style" : {
+				"navigationBarTitleText":"支付安全",
+				"navigationBarBackgroundColor":"#fff",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"text":"修改",
+							"fontSize":"14",
+							"color":"#999"
+						}]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/userPages/update/update",
+            "style" : {
+				"navigationBarTitleText":"修改密码",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/riseShop/riseShop",
+            "style" : {
+				"navigationBarTitleText":"店铺信息",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/updateTel/updateTel",
+            "style" : {
+				"navigationBarTitleText":"修改电话",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/yuyue/yuyue",
+            "style" : {
+				"navigationBarTitleText":"预约管理",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/kucun/kucun",
+            "style" : {
+				"navigationBarTitleText":"电池库存",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/help/help",
+            "style" : {
+				"navigationBarTitleText":"帮助中心",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/notice/notice",
+            "style" : {
+				"navigationBarTitleText":"近期活动",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/noticeDetail/noticeDetail",
+            "style" : {
+				"navigationBarTitleText":"公告详情",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/gushi/gushi",
+            "style" : {
+				"navigationBarTitleText":"品牌故事",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/dp/dp",
+            "style" : {
+				"navigationBarTitleText":"店铺介绍",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/lianxiMine/lianxiMine",
+            "style" : {
+				"navigationBarTitleText":"联系我们",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        },{
+            "path" : "pages/loginPages/register/register",
+            "style" : {
+				"navigationBarTitleText":"注册",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/saoNext/saoNext",
+            "style" : {
+				"navigationBarTitleText":"扫码成功",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+        ,{
+            "path" : "pages/userPages/addDC/addDC",
+            "style" : {
+				"navigationBarTitleText":"添加电池",
+				"navigationBarBackgroundColor":"#fff"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "pages/index/index", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

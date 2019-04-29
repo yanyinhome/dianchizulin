@@ -1,0 +1,2 @@
+<import src="./payAq.vue.wxml" />
+    <template is="99ba3fca" data="{{ ...$root['0'], $root }}"/>

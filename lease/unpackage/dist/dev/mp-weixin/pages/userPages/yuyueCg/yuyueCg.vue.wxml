@@ -1,0 +1,1 @@
+<template name="0b56ae66"><view class="_view data-v-ac94bcc2 content"><image src="../../../static/image/yuyue.png" mode class="_image data-v-ac94bcc2"></image><view class="_view data-v-ac94bcc2">预约成功，<text bindtap="handleProxy" data-eventid="{{'0b56ae66-0'}}" data-comkey="{{$k}}" class="_text data-v-ac94bcc2">去选择租用期限</text></view></view></template>

@@ -1,0 +1,39 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "",
+	"appid": "touristappid",
+	"projectname": "%E7%94%B5%E6%B1%A0%E7%A7%9F%E8%B5%81-%E7%94%A8%E6%88%B7%E7%AB%AF",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"name": "",
+					"query": "",
+					"id": 0,
+					"pathName": "pages/index/index"
+				}
+			]
+		}
+	}
+}

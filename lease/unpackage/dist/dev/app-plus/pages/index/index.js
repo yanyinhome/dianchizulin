@@ -1,0 +1,2 @@
+setCssToHead(["@charset \x22UTF-8\x22;\n.",[1],"content.",[1],"data-v-31ef6063 { width: 100%; padding: 0; }\nwx-map.",[1],"data-v-31ef6063 { width: 100%; height: 100vh; }\n.",[1],"btn.",[1],"data-v-31ef6063 { width: 100%; height: ",[0,90],"; position: absolute; bottom: 0; left: 0; line-height: ",[0,90],"; text-align: center; color: white; background: #FF8517; }\n",],undefined,{path:"./pages/index/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/index.wxml') } }));

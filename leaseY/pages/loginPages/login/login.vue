@@ -1,0 +1,133 @@
+<template>
+	<view class="content">
+		<image src="../../../static/image/logo.png" mode=""></image>
+		<view class="user">
+			<image src="../../../static/image/user.png" mode=""></image>
+			<input type="text" value="" placeholder="网点名称" @input="getInfo($event,'tel')"/>
+		</view>
+		<view class="user">
+			<image src="../../../static/image/pwd.png" mode=""></image>
+			<input type="password" value="" placeholder="密码" @input="getInfo($event,'pass')"/>
+		</view>
+		<button type="primary" @click="login()">登录</button>
+		<view class="reg flexBox">
+			<navigator url="../register/register" hover-class="none">注册</navigator>
+			<navigator url="../forget/forget" hover-class="none">忘记密码</navigator>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				tel:'',
+				pass:''
+			};
+		},
+		methods:{
+			getInfo(e,name){
+				var that = this;
+				if(name == 'tel'){
+					that.tel = e.detail.value;
+				}else if(name == 'pass'){
+					that.pass = e.detail.value;
+				}
+			},
+			login(){
+				var that = this;
+				if(that.tel==''){
+					uni.showToast({
+						title:'手机号格式不正确！',
+						icon:'none'
+					})
+				}else if(that.pass.length == 0){
+					uni.showToast({
+						title:'密码不能为空！',
+						icon:'none'
+					})
+				}else{
+					uni.request({
+						url:that.http+'net/netLogin',
+						header:that.header,
+						method:'POST',
+						data:{
+							name:that.tel,
+							pass:that.pass
+						},
+						success: (res) => {
+							if(res.data.code==200){
+								uni.showToast({
+									title:'登录成功！',
+									icon:'none'
+								})
+								uni.setStorageSync('tokenW',res.data.data.net_id);
+								uni.reLaunch({
+									url:'../../user/user'
+								})
+							}else{
+								uni.showToast({
+									title:res.data.mes,
+									icon:'none'
+								})
+							}
+						},
+						fail() {
+							uni.showToast({
+								title:'网络延迟，请刷新后重试!',
+								icon:'none'
+							})
+						}
+					})
+				}
+			}
+		}
+	}
+</script>
+
+<style scoped lang="scss">
+	.content {
+		padding-top: 100upx;
+	}
+
+	.content>image {
+		width: 120upx;
+		height: 120upx;
+		display: block;
+		margin: 0 auto 70upx;
+	}
+
+	.user {
+		width: 670upx;
+		height: 90upx;
+		border: 1upx solid #ebebeb;
+		border-radius: 10upx;
+		padding-left: 20upx;
+		margin: 0 auto 40upx;
+
+		image {
+			width: 40upx;
+			height: 40upx;
+			margin-top: 25upx;
+		}
+
+		input {
+			width: 580upx;
+			height: 90upx !important;
+			float: right;
+			display: inline-block;
+		}
+	}
+	uni-button{
+		height:80upx;
+		line-height: 80upx;
+		background: $buttonBg;
+		margin:80upx 0 40upx;
+		font-size:28upx;
+	}
+	.reg{
+		color:$buttonBg;
+		margin-top:20upx;
+		text-align: center;
+	}
+</style>

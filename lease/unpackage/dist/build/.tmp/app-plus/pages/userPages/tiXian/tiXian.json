@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "我要提现",
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "明细",
+        "fontSize": "14",
+        "color": "#999"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') || CSS.supports('top: constant(a)'))
+            document.write('<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' + (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"电池租赁-用户端","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"usingComponents":{},"navigationBarTitleText":"首页","navigationBarBackgroundColor":"#fff","titleNView":{"buttons":[{"text":"","fontSrc":"/static/font/iconfont.ttf","fontSize":"22px","float":"right"},{"text":"","fontSrc":"/static/font/iconfont.ttf","fontSize":"22px","float":"left"}]}}},"pages/loginPages/login/login.html":{"window":{"usingComponents":{},"navigationBarTitleText":"登录","navigationBarBackgroundColor":"#fff"}},"pages/loginPages/register/register.html":{"window":{"usingComponents":{},"navigationBarTitleText":"注册","navigationBarBackgroundColor":"#fff"}},"pages/loginPages/forget/forget.html":{"window":{"usingComponents":{},"navigationBarTitleText":"忘记密码","navigationBarBackgroundColor":"#fff"}},"pages/user/user.html":{"window":{"usingComponents":{},"titleNView":false}},"pages/userPages/balance/balance.html":{"window":{"usingComponents":{},"navigationBarTitleText":"充值","navigationBarBackgroundColor":"#FFFFFF"}},"pages/userPages/balance2/balance2.html":{"window":{"usingComponents":{},"navigationBarTitleText":"钱包余额","navigationBarBackgroundColor":"#fff"}},"pages/userPages/account/account.html":{"window":{"usingComponents":{},"navigationBarTitleText":"积分余额","navigationBarBackgroundColor":"#fff"}},"pages/userPages/tiXian/tiXian.html":{"window":{"usingComponents":{},"navigationBarTitleText":"我要提现","navigationBarBackgroundColor":"#fff","titleNView":{"buttons":[{"text":"明细","fontSize":"14","color":"#999"}]}}},"pages/userPages/mx/mx.html":{"window":{"usingComponents":{},"navigationBarTitleText":"提现明细","navigationBarBackgroundColor":"#fff"}},"pages/userPages/pw/pw.html":{"window":{"usingComponents":{},"navigationBarTitleText":"安全密码","navigationBarBackgroundColor":"#fff"}},"pages/userPages/txStatus/txStatus.html":{"window":{"usingComponents":{},"navigationBarTitleText":"提现状态","navigationBarBackgroundColor":"#fff"}},"pages/userPages/payAq/payAq.html":{"window":{"usingComponents":{},"navigationBarTitleText":"支付安全","navigationBarBackgroundColor":"#fff","titleNView":{"buttons":[{"text":"修改","fontSize":"14","color":"#999"}]}}},"pages/userPages/update/update.html":{"window":{"usingComponents":{},"navigationBarTitleText":"修改密码","navigationBarBackgroundColor":"#fff"}},"pages/userPages/shopCy/shopCy.html":{"window":{"usingComponents":{},"navigationBarTitleText":"网店查验","navigationBarBackgroundColor":"#fff"}},"pages/userPages/riseShop/riseShop.html":{"window":{"usingComponents":{},"navigationBarTitleText":"升级网点","navigationBarBackgroundColor":"#fff"}},"pages/userPages/sz/sz.html":{"window":{"usingComponents":{},"navigationBarTitleText":"修改电话","navigationBarBackgroundColor":"#fff"}},"pages/userPages/yuyue/yuyue.html":{"window":{"usingComponents":{},"navigationBarTitleText":"预约记录","navigationBarBackgroundColor":"#fff"}},"pages/userPages/leasePage/leasePage.html":{"window":{"usingComponents":{},"navigationBarTitleText":"请选择租用产品","navigationBarBackgroundColor":"#fff"}},"pages/userPages/proDetail/proDetail.html":{"window":{"usingComponents":{},"navigationBarTitleText":"产品详情","navigationBarBackgroundColor":"#fff"}},"pages/userPages/realName/realName.html":{"window":{"usingComponents":{},"navigationBarTitleText":"实名认证","navigationBarBackgroundColor":"#fff"}},"pages/userPages/rnResault/rnResault.html":{"window":{"usingComponents":{},"navigationBarTitleText":"实名认证结果","navigationBarBackgroundColor":"#fff"}},"pages/userPages/yuYue2/yuYue2.html":{"window":{"usingComponents":{},"navigationBarTitleText":"立即预约","navigationBarBackgroundColor":"#fff"}},"pages/userPages/yuyueCg/yuyueCg.html":{"window":{"usingComponents":{},"navigationBarTitleText":"预约成功","navigationBarBackgroundColor":"#fff"}},"pages/userPages/yuyueDate/yuyueDate.html":{"window":{"usingComponents":{},"navigationBarTitleText":"租用期限","navigationBarBackgroundColor":"#fff"}},"pages/userPages/myLease/myLease.html":{"window":{"usingComponents":{},"navigationBarTitleText":"我的租赁","navigationBarBackgroundColor":"#fff"}},"pages/userPages/tMoney/tMoney.html":{"window":{"usingComponents":{},"navigationBarTitleText":"退押金","navigationBarBackgroundColor":"#fff"}},"pages/userPages/yuYue3/yuYue3.html":{"window":{"usingComponents":{},"navigationBarTitleText":"预约更换","navigationBarBackgroundColor":"#fff"}},"pages/userPages/help/help.html":{"window":{"usingComponents":{},"navigationBarTitleText":"帮助中心","navigationBarBackgroundColor":"#fff"}},"pages/userPages/notice/notice.html":{"window":{"usingComponents":{},"navigationBarTitleText":"最新公告","navigationBarBackgroundColor":"#fff"}},"pages/userPages/noticeDetail/noticeDetail.html":{"window":{"usingComponents":{},"navigationBarTitleText":"公告详情","navigationBarBackgroundColor":"#fff"}},"pages/userPages/invate/invate.html":{"window":{"usingComponents":{},"navigationBarTitleText":"邀请好友","navigationBarBackgroundColor":"#fff"}},"pages/userPages/yuSuccess/yuSuccess.html":{"window":{"usingComponents":{},"navigationBarTitleText":"电池详情","navigationBarBackgroundColor":"#fff"}},"pages/userPages/wdDetail/wdDetail.html":{"window":{"usingComponents":{},"navigationBarTitleText":"网点详情","navigationBarBackgroundColor":"#fff"}},"pages/userPages/wdList/wdList.html":{"window":{"usingComponents":{},"navigationBarTitleText":"网点列表","navigationBarBackgroundColor":"#fff"}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"}},"tabBar":{"color":"","selectedColor":"","backgroundColor":"","borderStyle":"black","list":[],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/loginPages/login/login","pages/loginPages/register/register","pages/loginPages/forget/forget","pages/user/user","pages/userPages/balance/balance","pages/userPages/balance2/balance2","pages/userPages/account/account","pages/userPages/tiXian/tiXian","pages/userPages/mx/mx","pages/userPages/pw/pw","pages/userPages/txStatus/txStatus","pages/userPages/payAq/payAq","pages/userPages/update/update","pages/userPages/shopCy/shopCy","pages/userPages/riseShop/riseShop","pages/userPages/sz/sz","pages/userPages/yuyue/yuyue","pages/userPages/leasePage/leasePage","pages/userPages/proDetail/proDetail","pages/userPages/realName/realName","pages/userPages/rnResault/rnResault","pages/userPages/yuYue2/yuYue2","pages/userPages/yuyueCg/yuyueCg","pages/userPages/yuyueDate/yuyueDate","pages/userPages/myLease/myLease","pages/userPages/tMoney/tMoney","pages/userPages/yuYue3/yuYue3","pages/userPages/help/help","pages/userPages/notice/notice","pages/userPages/noticeDetail/noticeDetail","pages/userPages/invate/invate","pages/userPages/yuSuccess/yuSuccess","pages/userPages/wdDetail/wdDetail","pages/userPages/wdList/wdList"],"subPackages":[],"usingComponents":{},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"1.9.3"}
+
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+            };
+
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

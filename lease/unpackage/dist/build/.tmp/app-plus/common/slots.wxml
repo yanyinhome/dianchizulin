@@ -1,0 +1,7 @@
+<import src="/components/uni-password/uni-password.vue.wxml" />
+<import src="/components/uni-shader.vue.wxml" />
+<import src="/components/i-icon/i-icon.vue.wxml" />
+<import src="/common/slots.wxml" />
+
+<template name="d240b8aa-default-d240b8aa-0">请输入安全密码</template>
+

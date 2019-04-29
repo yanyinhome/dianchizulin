@@ -1,0 +1,7 @@
+<import src="/components/uni-password/uni-password.vue.wxml" />
+<import src="/common/slots.wxml" />
+<import src="/components/uni-shader.vue.wxml" />
+<import src="/components/i-icon/i-icon.vue.wxml" />
+
+<template name="97cf1db0-default-97cf1db0-0">请输入安全密码</template>
+

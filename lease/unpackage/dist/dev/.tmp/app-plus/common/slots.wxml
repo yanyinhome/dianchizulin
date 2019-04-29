@@ -1,0 +1,4 @@
+<import src="/components/uni-password/uni-password.vue.wxml" />
+
+<template name="eb9e4226-default-eb9e4226-0">请输入安全密码</template>
+

@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/user/user",
+    "pages/loginPages/login/login",
+    "pages/loginPages/forget/forget",
+    "pages/userPages/balance/balance",
+    "pages/userPages/balance2/balance2",
+    "pages/userPages/account/account",
+    "pages/userPages/tiXian/tiXian",
+    "pages/userPages/mx/mx",
+    "pages/userPages/pw/pw",
+    "pages/userPages/txStatus/txStatus",
+    "pages/userPages/payAq/payAq",
+    "pages/userPages/update/update",
+    "pages/userPages/riseShop/riseShop",
+    "pages/userPages/updateTel/updateTel",
+    "pages/userPages/yuyue/yuyue",
+    "pages/userPages/kucun/kucun",
+    "pages/userPages/help/help",
+    "pages/userPages/notice/notice",
+    "pages/userPages/noticeDetail/noticeDetail",
+    "pages/userPages/gushi/gushi",
+    "pages/userPages/dp/dp",
+    "pages/userPages/lianxiMine/lianxiMine",
+    "pages/loginPages/register/register",
+    "pages/userPages/saoNext/saoNext",
+    "pages/userPages/addDC/addDC"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "电池租赁-网点端",
+  "compilerVersion": "1.9.3"
+}

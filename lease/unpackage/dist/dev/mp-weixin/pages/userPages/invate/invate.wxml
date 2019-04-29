@@ -1,0 +1,2 @@
+<import src="./invate.vue.wxml" />
+    <template is="63d6ee49" data="{{ ...$root['0'], $root }}"/>

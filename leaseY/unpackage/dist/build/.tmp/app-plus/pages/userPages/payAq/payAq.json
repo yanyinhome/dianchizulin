@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "支付安全",
+  "navigationBarBackgroundColor": "#fff",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "修改",
+        "fontSize": "14",
+        "color": "#999"
+      }
+    ]
+  }
+}
